@@ -19,7 +19,7 @@ export const socials = [
   },
   {
     id: "youtoube",
-    lable: "YouTube",
+    label: "YouTube",
     handle: "@durangomac",
     href: "https://www.youtube.com/@durangomac",
     category: "VLog",
