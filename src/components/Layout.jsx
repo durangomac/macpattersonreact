@@ -1,4 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom";
+import SocialLinks from "./SocialLinks";
 import "./Layout.css";
 
 export default function Layout() {
@@ -21,8 +22,8 @@ export default function Layout() {
         <Outlet />
       </main>
       <footer className="app-footer">
-        © {new Date().getFullYear()} Mac Patterson
-      </footer>
-    </div>
+        <SocialLinks compact highlightOnly />
+        <p>© {new Date().getFullYear()} Mac Patterson</p>
+      </footer>    </div>
   );
 }
