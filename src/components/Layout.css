@@ -7,17 +7,20 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
+/* HEADER & BRAND */
+
 .app-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.75rem 1.25rem;
-  border-bottom: 1px solid rgba(148, 163, 184, 0.3);
   position: sticky;
   top: 0;
+  inset-inline: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.25rem;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.3);
   backdrop-filter: blur(10px);
-  background: rgba(15, 23, 42, 0.8);
-  z-index: 10;
+  background: rgba(15, 23, 42, 0.9);
 }
 
 .brand {
@@ -43,10 +46,12 @@
   letter-spacing: 0.04em;
 }
 
+/* DESKTOP NAV */
+
 .main-nav {
   display: flex;
+  align-items: center;
   gap: 0.75rem;
-  flex-wrap: wrap;
 }
 
 .main-nav a {
@@ -69,6 +74,57 @@
   color: #f9fafb;
 }
 
+/* HAMBURGER BUTTON */
+
+.nav-toggle {
+  display: none; /* shown only on mobile via media query */
+  margin-left: auto;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(148, 163, 184, 0.6);
+  background: rgba(15, 23, 42, 0.9);
+  position: relative;
+  z-index: 30;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.nav-toggle span:not(.nav-toggle-arrow) {
+  display: block;
+  width: 1.2rem;
+  height: 2px;
+  border-radius: 9999px;
+  background: #e5e7eb;
+}
+
+.nav-toggle-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  background: transparent;
+  font-size: 1.1rem;
+  line-height: 1;
+  color: #e5e7eb;
+}
+
+/* BACKDROP FOR MOBILE NAV */
+
+.nav-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.75);
+  z-index: 15;
+}
+
+/* MAIN CONTENT */
+
 .app-main {
   flex: 1;
   max-width: 960px;
@@ -88,6 +144,8 @@
   max-width: 60ch;
 }
 
+/* SOCIALS PAGE LIST */
+
 .social-list {
   list-style: none;
   padding: 0;
@@ -106,6 +164,8 @@
   text-decoration: underline;
 }
 
+/* FOOTER */
+
 .app-footer {
   padding: 0.75rem 1.25rem;
   font-size: 0.8rem;
@@ -114,17 +174,34 @@
   border-top: 1px solid rgba(148, 163, 184, 0.3);
 }
 
-/* Mobile tweaks */
+.app-footer p {
+  margin-top: 0.5rem;
+}
+
+/* MOBILE NAV: TURN INTO FLY-OUT DRAWER */
+
 @media (max-width: 640px) {
-  .app-header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.5rem;
+  .nav-toggle {
+    display: inline-flex;
   }
 
   .main-nav {
-    width: 100%;
-    justify-content: flex-start;
-    overflow-x: auto;
+    position: fixed;
+    top: 0;
+    right: -260px; /* hidden off-screen by default */
+    width: 240px;
+    height: 100vh;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4rem 1.25rem 1.5rem;
+    gap: 0.5rem;
+    background: #020617;
+    box-shadow: -12px 0 30px rgba(15, 23, 42, 0.8);
+    transition: right 180ms ease-out;
+    z-index: 20;
+  }
+
+  .main-nav--open {
+    right: 0; /* slide in */
   }
 }
