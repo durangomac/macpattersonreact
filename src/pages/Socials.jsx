@@ -1,4 +1,5 @@
 import { socials } from "../config/socials";
+import YouTubeCard from "../components/YouTubeCard";
 
 export default function Socials() {
   return (
@@ -28,6 +29,13 @@ export default function Socials() {
           </li>
         ))}
       </ul>
+
+      <YouTubeCard
+        channelId="UC-Hu4kU5CcmBxe74IEtu7WQ"
+        title="Featured on YouTube"
+        maxResults={6}
+        highlightMode="mostViewed"
+      />
     </section>
   );
 }
