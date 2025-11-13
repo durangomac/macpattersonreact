@@ -658,3 +658,35 @@
   object-fit: cover;
   margin-bottom: 0.5rem;
 }
+
+/* HOME PAGE TWO-COLUMN LAYOUT */
+.home-two-col {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+.home-text {
+  flex: 2;
+}
+
+.home-photo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-pic {
+  width: 300px; /* smaller photo */
+  height: auto;
+  display: block;
+  border-radius: 50%; /* circular photo; remove if you want square */
+}
+
+@media (max-width: 768px) {
+  .home-two-col {
+    flex-direction: column;
+  }
+}

@@ -68,6 +68,27 @@ export default [
             "Automated the deadhead booking process for flight crew members, freeing up at least 200 crew scheduler hours per month to work on more complex tasks"
         ]
     },
+    {
+        title: "Cross Utilized Agent",
+        company: "SkyWest Airlines",
+        dates: "June 2006 - June 2007",
+        summary: "Agent working in a small airport in Durango, CO, servicing United Express and Delta Connection flights. We did everything from check-in, baggage, marshalling, gate, aircraft cleaning, de-iceing and airport ticketing",
+        bullets: [
+            "Responsible of safety and secuirty of aircraft, personal, passenger and cargo",
+            "Operations agent for cargo opreations for urgent same-day shipments",
+            "Performed audits on ticket stock and controlled materials"
+        ]
+    },
+    {
+        title: "Manager of IT, Systems Administrator",
+        company: "Durango & Silverton Narrow Gauge Railroad",
+        dates: "April 2003 - May 2007",
+        summary: "All aspects of information technology systems for the company, email, reservation system, hardware, network, and tech support.",
+        bullets: [
+            "Built several systems for better communication between wholesalers to allow faster turnaround of reservation requests",
+            "Managed the phone system, including the call center handling with long distance inbound onto a new lower cost toll T-1 line"
+        ]
+    },
 
 
     // ...additional jobs...

@@ -45,7 +45,7 @@ export const projects = [
   },
   {
     id: 'congress-bff',
-    name: 'Congress BFF API',
+    name: 'Congress API',
     role: 'Backend for Frontend (BFF) • AWS Lambda + Python',
     period: '2025 – Present',
     summary:
