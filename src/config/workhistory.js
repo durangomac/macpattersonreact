@@ -20,7 +20,7 @@ export default [
     {
         title: "Lead Data Engineer",
         company: "Fuel Talent",
-        dates: "2024 - 2025",
+        dates: "December 2024 - April 2025",
         summary: "Team lead for the data migration of the Hawaiian Miles to the Alaska Airlines Mileage Plan system, now combined as Atmos Rewards. We created the archetured planes and buiilt the initial platform.",
         bullets: [
             "Cloud only migration archtecture built using Databrick, Azure SQL DB, Azure Functions with C# and Service Bus.",
@@ -31,14 +31,14 @@ export default [
     {
         title: "Direcotr of Information Technology",
         company: "EYEY, LLC",
-        dates: "2024",
+        dates: "June 2024 - October 2024",
         summary: "Day to day operations of inforamtion technology systems, company was spun down in September due to losing a franchise agreement.",
         bullets: []
     },
     {
         title: "Manager - Crew Operation Planning",
         company: "Alaska Airlines",
-        dates: "2021 - 2022",
+        dates: "April 2021 - May 2022",
         summary: "Managed a team building the schedules for pilots and flight attendants along with overseeing the vacation and leaves for those work groups.",
         bullets: [
             "Led team of 6 crew planners building pairings and for pilots bid lines.",
@@ -49,7 +49,7 @@ export default [
     {
         title: "Senior Software Engineer",
         company: "Alaska Airlines",
-        dates: "2016 – 2021",
+        dates: "April 2016 – April 2021",
         summary: "Led major devops modernization for flight ops, crew systems, and security data platforms.",
         bullets: [
             "Built data ingestion pipelines for FAA, ATC, and flight ops systems",
@@ -60,11 +60,12 @@ export default [
     {
         title: "Software Engineer II",
         company: "SkyWest Airlines",
-        dates: "2007 - 2016",
+        dates: "July 2007 - April 2016",
         summary: "Built software solutions for a number of departments, subject matter expert for data, flight operation, crew support and aiprort customer service",
         bullets: [
-            "1",
-            "2"
+            "Built mostly web based applications for internal users using C#, javascript, and SQL",
+            "Server side applications to manage event based messages from aircraft, buisness partners, and other systms",
+            "Automated the deadhead booking process for flight crew members, freeing up at least 200 crew scheduler hours per month to work on more complex tasks"
         ]
     },
 
