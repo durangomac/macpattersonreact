@@ -3,7 +3,7 @@ export default [
         title: "Election Services",
         company: "King County Elections",
         dates: "2023 - current",
-        summary: "Work with in Voter Services to help voters with their voting records.",
+        summary: "Work with in Voter Services to help voters with their voting records. Short Term Temporary, 20-60 hours per election, up to 6 elections per year.",
         bullets: [
             "Help update regrister and update voter records",
             "Print ballots for current elections",
