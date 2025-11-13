@@ -13,7 +13,7 @@ export const socials = [
     id: "linkedin",
     label: "LinkedIn",
     handle: "Mac Patterson",
-    href: "https://www.linkedin.com/in/macpatterson",
+    href: "https://www.linkedin.com/in/pattersonmac",
     category: "Professional",
     highlight: true,
   },

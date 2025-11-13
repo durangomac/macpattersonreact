@@ -44,6 +44,7 @@ export default function Layout() {
         >
           <NavLink to="/" end>Home</NavLink>
           <NavLink to="/about">About</NavLink>
+          <NavLink to="/workhistory">Work History</NavLink>
           <NavLink to="/portfolio">Portfolio</NavLink>
           <NavLink to="/socials">Socials</NavLink>
           <NavLink to="/contact">Contact</NavLink>

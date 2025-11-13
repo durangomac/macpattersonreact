@@ -609,3 +609,52 @@
 .form-status.error {
   color: #f97373;
 }
+.work-history-page .page-header {
+  margin-bottom: 2rem;
+}
+
+.work-section .work-entry {
+  margin-bottom: 1.75rem;
+}
+
+.work-entry h2 {
+  margin: 0;
+}
+
+.work-dates {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  margin-bottom: 0.5rem;
+}
+
+.testimonial-section {
+  margin-top: 3rem;
+}
+
+.testimonial-row {
+  display: flex;
+  flex-wrap: nowrap;          /* keep all cards on a single row */
+  overflow-x: auto;           /* allow horizontal scrolling */
+  overflow-y: hidden;
+  gap: 1rem;
+  padding-bottom: 1rem;       /* breathing room above scrollbar */
+  -webkit-overflow-scrolling: touch; /* smoother on iOS/macOS */
+}
+
+.testimonial-card {
+  flex: 0 0 auto; /* prevent wrapping and shrinking; respect width */
+  width: 260px;
+  background: #020617;
+  border-radius: 1rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.85);
+}
+
+.testimonial-photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
