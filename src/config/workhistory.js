@@ -11,21 +11,29 @@ export default [
         ]
     },
     {
+        title: "Freelance",
+        company: "macpatterson.com",
+        dates: "2022 - current",
+        summary: "Small projects and web site updates for friends and small business clients",
+        bullets: []
+    },
+    {
         title: "Lead Data Engineer",
         company: "Fuel Talent",
-        Dates: "2024-2025",
+        dates: "2024 - 2025",
         summary: "Team lead for the data migration of the Hawaiian Miles to the Alaska Airlines Mileage Plan system, now combined as Atmos Rewards. We created the archetured planes and buiilt the initial platform.",
         bullets: [
             "Cloud only migration archtecture built using Databrick, Azure SQL DB, Azure Functions with C# and Service Bus.",
-            "Led team of 6 engineers",
-            ""
+            "Led team of 6 engineers in C#, Python, PySpark and SQL development",
+            "Collaberation between multiple teams across divisions to verify data and reporting requirements"
         ]
     },
     {
         title: "Direcotr of Information Technology",
         company: "EYEY, LLC",
         dates: "2024",
-        summary: "Day to day operations of inforamtion technology systems, company was spun down in September due to losing a franchise agreement."
+        summary: "Day to day operations of inforamtion technology systems, company was spun down in September due to losing a franchise agreement.",
+        bullets: []
     },
     {
         title: "Manager - Crew Operation Planning",
@@ -47,6 +55,16 @@ export default [
             "Built data ingestion pipelines for FAA, ATC, and flight ops systems",
             "Migrated crew tracking and scheduling systems to modern infrastructure",
             "Implemented observability and security logging with OTEL + Sumo Logic"
+        ]
+    },
+    {
+        title: "Software Engineer II",
+        company: "SkyWest Airlines",
+        dates: "2007 - 2016",
+        summary: "Built software solutions for a number of departments, subject matter expert for data, flight operation, crew support and aiprort customer service",
+        bullets: [
+            "1",
+            "2"
         ]
     },
 
