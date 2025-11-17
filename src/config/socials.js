@@ -25,6 +25,14 @@ export const socials = [
     category: "VLog",
     highlight: true,
   },
+  {
+    id: "instagram",
+    lable: "Instagram",
+    handle: "durangomac",
+    href: "https://www.instagram.com/durangomac",
+    category: "Pictures",
+    highlights: true,
+  },
   // Add more as needed:
   // {
   //   id: "twitter",
