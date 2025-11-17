@@ -27,7 +27,7 @@ export const socials = [
   },
   {
     id: "instagram",
-    lable: "Instagram",
+    label: "Instagram",
     handle: "durangomac",
     href: "https://www.instagram.com/durangomac",
     category: "Pictures",
